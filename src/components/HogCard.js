@@ -22,7 +22,7 @@ const HogCard = ({ hog }) => {
             <p>Weight: {hog.weight}</p>
             <p>Greased: {hog.greased ? 'Yes' : 'No'}</p>
             <p>Highest Medal Achieved: {hog['highest medal achieved']}</p>
-            <Button onClick={() => setHidden(true)}>Hide</Button>
+            <Button onClick={() => setHidden(true)}>Hide Hog</Button>
           </Card.Description>
         )}
       </Card.Content>
